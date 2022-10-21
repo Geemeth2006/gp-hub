@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) ,url(https://w0.peakpx.com/wallpaper/26/755/HD-wallpaper-synthwave-cityscape-neon-8-bit-others.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.39);
+    width: auto;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-left: 1cm;
+}
+
+.logo{
+    color: bisque;
+    font-size: 35px;
+    font-family: Arial;
+    text-transform: uppercase;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.menu{
+    width: 400px;
+    height: 70px;
+}
+
+ul{
+    margin-left: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 18px;
+    font-size: 14px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(9, 0, 48);
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+
+ul li a:hover{
+    color: rgb(72, 18, 197);
+    
